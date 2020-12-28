@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+body, div, p, form, input, button, span, a, ul, li {
+    box-sizing: border-box;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #00f;
+    background: rgba(78,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+    padding: 64px 0;
+    color: #fff;
+}
+
+.logo {
+    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+	width: 50%;
+}
+
+.title {
+    font-size: 37px;
+    margin: 0;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    width: 400px;
+    margin: 28px 0 37px 0;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background: #ffd429;
+    color: #000;
+    display: block;
+    width: 220px;
+    padding: 21px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #164d7a;
+}
+
+.dreams {
+    width: 50%;
+    margin-right: -57px;
+}
+
+.future {
+    padding: 8px 0 100px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 30px;
+    margin: 100px 0 60px;
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.value {
+    width: 300px;
+    background: url('../img/icons1.png') no-repeat center top;
+    padding-top: 100px;
+}
+
+.value-title {
+    font-size: 19px;
+}
+
+.value-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-top: 22px;
+}
+
+.value-free {
+/*     width: 380px; */
+    background: url('../img/icons2.png') no-repeat center top;
+}
+
+.value-change {
+    background: url('../img/icons3.png') no-repeat center top;
+}
+
+.mail {
+    background: #ecf3f8;
+    padding: 2px 0 101px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.input {
+    color: #9c9b9f;
+    margin: 0 0 15px;
+    width: 50%;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 46px;
+    padding: 0 0 0 24px;
+}
+
+.btn-form {
+    border: 0;
+    cursor: pointer;
+    display: inline;
+    width: 50%;
+}
+
+.footer {
+    background: #164d7a;
+    padding: 64px 0;
+}
+
+.credits {
+    color: #d4cee3;
+    font-size: 14px;
+    margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.animated {
+	opacity: 0;
+}
+
+
+/* Responsive Bootstrap v5.0 Grid*/
+
+
+/* 992px - 1200px (xl - ≥1200px) */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 90%;
+	}
+	.offer {
+		width: 100%;
+	}
+    .title {
+		font-size: 23px;
+	}
+	.title span {
+		font-size: 49px;
+	}
+	.intro {
+		width: 80%;
+	}
+	.dreams {
+		width: 60%;
+		margin-right: -45px;
+	}
+
+}
+
+/* 768px - 992px (lg - ≥992px) */
+@media screen and (max-width: 992px) {
+	.title {
+		font-size: 15px;
+		width: 90%;
+	}
+	.title span {
+		font-size: 29px;
+	}
+	.intro {
+		font-size: 11px;
+		margin: 18px 0 25px 0;
+	}
+	.dreams {
+		margin-right: -25px;
+	}
+	.btn {
+		font-size: 10px;
+		width: 55%;
+		padding: 15px 0;
+	}
+	.form {
+		width: 70%;
+	}
+	.input {
+		width: 70%;
+		font-size: 13px;
+		padding-left: 15px;
+	}
+	.btn-form {
+		width: 70%;
+	}
+
+
+}
+
+/* 576px - 768px (md - ≥768px) */
+@media screen and (max-width: 768px) {
+	.future {
+		padding: 30px 0;
+	}
+	.section-title {
+		font-size: 24px;
+		margin: 20px 0 30px;
+	}
+	.values {
+		flex-direction: column;
+	}
+	.value {
+		width: 100%;
+		margin: 0 0 30px;
+	}
+	.value-text {
+		margin: 22px 0;
+	}
+	.mail {
+		padding: 30px 0 50px;
+	}
+	.footer {
+		padding: 34px 0;
+	}
+	.credits {
+		font-size: 10px;
+	}
+
+}
+
+/* 0 - 576px (sm - ≥576px) */
+@media screen and (max-width: 576px) {
+
+	.header {
+		padding: 30px 0;
+	}
+	.logo {
+		margin-bottom: 60px;
+	}
+	.wrapper { 
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.title {
+		width: 100%;
+		font-size: 25px;
+	}
+	.title span {
+		font-size: 30px;
+	}
+	.intro {
+		width: 100%;
+		font-size: 16px;
+	}
+	.btn {
+		width: 100%;
+		font-size: 15px;
+	}
+	.dreams {
+		width: 100%;
+		margin: 10px 0 0;
+		padding: 0;
+	}
+	
+	.form {
+		width: 90%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn-form {
+		width: 100%;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
