@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 65px;
+	font-size: 50px;
 	letter-spacing: 0.22em;
 	line-height: 85px;
 	border-top: 3px solid #9eb4be;
 	border-bottom: 3px solid #9eb4be;
-	width: 640px;
+	width: 700px;
 	padding: 14px 0;
 	margin: 0 auto;
 }
@@ -29,7 +29,7 @@ h1 {
 .header {
 	background: #806a7c url('../img/bg.jpg') no-repeat center top / cover;
 	color: #fff;
-	padding-bottom: 430px;
+	padding-bottom: 150px;
 	padding-top: 90px;
 }
 
@@ -39,8 +39,8 @@ h1 {
 }
 
 .logo {
-	width: 37px;
-	height: 47px;
+	width: 200px;
+	height: 120px;
 }
 
 .mail {
@@ -55,7 +55,7 @@ h1 {
 }
 
 .offer {
-	margin-top: 293px;
+	margin-top: 150px;
 	text-align: center;
 	letter-spacing: 0.1em:;
 }
