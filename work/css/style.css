@@ -9,8 +9,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 28px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.01em;
+  color: #000000;
 }
 
 h1,
@@ -20,7 +21,7 @@ h4,
 h5,
 h6 {
   font-weight: 900;
-  padding: 10px 0;
+  margin: 10px 0;
 }
 
 h1 {
@@ -35,17 +36,22 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 h3 {
   opacity: 0.7;
   font-size: 18px;
   color: #000000;
+  padding-bottom: 15px;
 }
 
 h4 {
   opacity: 0.7;
   color: #000000;
-  font-size: 16px;
   font-weight: 700;
+  padding-top: 15px;
 }
 
 p {
@@ -83,6 +89,7 @@ ul {
 }
 
 .mail {
+  font-size: 14px;
   color: #ccdfec;
   text-decoration: none;
 }
@@ -116,6 +123,18 @@ ul {
   height: 420px;
 }
 
+.link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #ff2b4a;
+  transition: all 0.5s ease;
+}
+
+.link:hover {
+  color: #164d7a;
+  text-decoration: underline;
+}
+
 .description {
   width: 60%;
   opacity: 0.7;
@@ -129,10 +148,7 @@ ul {
 .btn {
   background: #ff2b4a;
   color: #e0f2ff;
-  font-size: 16px;
-  line-height: 28px;
   font-weight: 700;
-  letter-spacing: 0.01em;
   text-decoration: none;
   display: block;
   width: 200px;
@@ -145,4 +161,53 @@ ul {
 .btn:hover {
   color: #fff;
   background: #164d7a;
+}
+
+.work {
+  background: #f6f6f6;
+}
+
+.work__heading {
+  text-align: center;
+}
+
+.work__heading p {
+  opacity: 0.7;
+}
+
+.work__steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work__step {
+  width: 280px;
+  height: 280px;
+  text-align: center;
+}
+
+.work__step-down {
+  padding-top: 100px;
+}
+
+.work__step--white {
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 1;
+}
+
+.work__step-first {
+  background: #10c6fc;
+}
+
+.work__step-second {
+  background: #835aeb;
+}
+
+.work__step-third {
+  background: #002453;
+}
+
+.work__step-fourth {
+  background: #ff2b4a;
 }
