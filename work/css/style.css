@@ -428,6 +428,10 @@ ul {
   margin-right: 0;
 }
 
+.blok-btn {
+  padding-top: 50px;
+}
+
 .step-examples {
   width: 280px;
   height: 450px;
