@@ -168,54 +168,58 @@ ul {
   background: #f6f6f6;
 }
 
-.work__heading {
+.heading {
   text-align: center;
 }
 
-.work__heading-description {
+.heading-description {
   opacity: 0.7;
   padding-top: 25px;
   font-size: 14px;
 }
 
-.work__steps {
+.steps {
   display: flex;
   justify-content: space-between;
   margin-top: 65px;
 }
 
-.work__step {
+.step {
   width: 280px;
   height: 280px;
   text-align: center;
   margin-right: 20px;
 }
 
-.work__step-img {
+.step-img {
   padding-top: 100px;
 }
 
-.work__step--white {
+.step-white {
   text-transform: uppercase;
   color: #fff;
   opacity: 1;
 }
 
-.work__step-first {
+.step-first {
   background: #10c6fc;
 }
 
-.work__step-second {
+.step-second {
   background: #835aeb;
 }
 
-.work__step-third {
+.step-third {
   background: #002453;
 }
 
-.work__step-fourth {
+.step-fourth {
   background: #ff2b4a;
   margin-right: 0;
+}
+
+.step-five {
+  background: #49ccab;
 }
 
 .footer {
