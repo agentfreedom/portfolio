@@ -78,7 +78,7 @@ li {
 
 .container {
   width: 90%;
-  max-width: 1170px;
+  /* max-width: 1170px; */
   margin: 0 auto;
 }
 
@@ -89,11 +89,13 @@ li {
 }
 
 .logo {
+  display: block;
   width: 150px;
   height: 90px;
 }
 
 .mail {
+  display: block;
   color: #ccdfec;
   text-decoration: none;
 }
@@ -521,4 +523,105 @@ li {
 
 .social__link:hover {
   color: #ff2b4a;
+}
+
+/* // Экстрамалые девайсы «телефоны», < 576px
+
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 546px;
+  }
+  .mail {
+    display: none;
+  }
+}
+
+// Малые девайсы «ландшафтные», < 768px
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 738px;
+  }
+}
+
+// Средние девайсы «таблетки», < 992px
+@media (max-width: 991.98px) {
+  .container {
+    width: 962px;
+  }
+}
+
+// Большие девайсы большие десктопы, больше 1200px
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 1170px;
+  }
+} */
+
+/* 992px - 1200px (xl - ≥1200px) */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+/* 768px - 992px (lg - ≥992px) */
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 962px;
+  }
+}
+
+/* 576px - 768px (md - ≥768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 738px;
+  }
+}
+
+/* 0 - 576px (sm - ≥576px) */
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 546px;
+  }
+  .header {
+    padding-top: 40px;
+    padding-bottom: 140px;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .logo {
+    width: 200px;
+    height: 120px;
+  }
+  .mail {
+    display: none;
+  }
+  .offer {
+    margin-top: 100px;
+  }
+  .offer h1 {
+    font-size: 30px;
+    line-height: 45px;
+    width: 90%;
+  }
+  .offer__description {
+    font-size: 16px;
+    padding-top: 18px;
+    line-height: 20px;
+  }
+  .section {
+    padding: 50px 0;
+  }
+  .heading h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .heading-description {
+    line-height: 16px;
+    padding-top: 0;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
 }
