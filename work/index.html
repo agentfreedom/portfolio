@@ -11,6 +11,7 @@
       href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/accordion.css" />
   </head>
   <body>
     <header id="header" class="header">
@@ -38,51 +39,60 @@
           <p class="heading-description">
             <!-- ******* -->
           </p>
-        </div>
+		  </div>
+		  
       <div class="container blok">
 		  <div class="photo">
 			  <img class="photo-img" src="./img/ava.jpg" alt="Oleksandr Avdasov">
 				<a class="btn" href="https://agentfreedom.github.io/cv/" target="_blank" rel="nowfollow">My CV</a>
+		  </div>
+
+
+        <div id="description" class="description">
+			 <h3 class="description__title">Hi, I’m Oleksandr Avdasov, web developer from Ukraine.</h3>
+          <div class="description__text">
+				<p>
+					In 2019, the need arose to learn web development. The desire 
+					appeared much earlier, back in 2007.
+				</p>
+				<p>
+					In 2019-2020, he studied the basics of HTML5/CSS3, PHP/MySql and 
+					the Bootstrap-3 framework on the online course of the 
+					<a class="link" href="https://fructcode.com/" target="_blank" rel="nowfollow">Fruct Code</a> 
+					website. I have received certificates of success.
+				</p>
+				<p>
+					Now I practice a lot and improve my knowledge. I am focused on 
+					front-end development. I am studying JavaScript and its frameworks. 
+					JS Full Stack Developer is my goal and dream.
+				</p>
 			</div>
-        <div class="description">
-			  <h3 class="description__text">Hi, I’m Oleksandr Avdasov, web developer from Ukraine.</h3>
-          <p>
-				 In 2019, the need arose to learn web development. The desire 
-				 appeared much earlier, back in 2007.
-			 </p>
-			 <p>
-				 In 2019-2020, he studied the basics of HTML5/CSS3, PHP/MySql and 
-				 the Bootstrap-3 framework on the online course of the 
-				 <a class="link" href="https://fructcode.com/" target="_blank" rel="nowfollow">Fruct Code</a> 
-				 website. I have received certificates of success.
-			 </p>
-          <p>
-				Now I practice a lot and improve my knowledge. I am focused on 
-				front-end development. I am studying JavaScript and its frameworks. 
-				JS Full Stack Developer is my goal and dream.
-          </p>
-          <h3 class="title-black">My path to web development</h3>
-          <p>
-				The first HTML page with the "Hello World!" I wrote in 2007. 
-				In 2011, together with a friend, I developed a website for a 
-				taxi service in Kiev. In 2012 I got acquainted with CMS WordPress 
-				and Joomla. Developed and administered several websites using paid 
-				and free WordPress CMS templates until 2016. 
-			 </p>
-			 <p>
-				At the end of 2018, I tried to develop my own template for CMS 
-				WordPress, but I failed. I concluded - "Knowing and being able are 
-				not the same thing!" and started studying web development 
-				technologies.
-			</p>
-          <h3 class="title-black">My hobbies</h3>
-          <ul>
-            <li>Design</li>
-            <li>Editing video clips</li>
-				<li>Cars</li>
-				<li>Volleyball</li>
-				<li>Fitness Gym</li>
-          </ul>
+          <h3 class="description__title">My path to web development</h3>
+			 <div class="description__text">
+				<p>
+					The first HTML page with the "Hello World!" I wrote in 2007. 
+					In 2011, together with a friend, I developed a website for a 
+					taxi service in Kiev. In 2012 I got acquainted with CMS WordPress 
+					and Joomla. Developed and administered several websites using paid 
+					and free WordPress CMS templates until 2016. 
+				</p>
+				<p>
+					At the end of 2018, I tried to develop my own template for CMS 
+					WordPress, but I failed. I concluded - "Knowing and being able are 
+					not the same thing!" and started studying web development 
+					technologies.
+				</p>
+			</div>
+			 <h3 class="description__title">My hobbies</h3>
+			 <div class="description__text">
+				<ul>
+					<li>Design</li>
+					<li>Editing video clips</li>
+					<li>Cars</li>
+					<li>Volleyball</li>
+					<li>Fitness Gym</li>
+				</ul>
+			 </div>
 		  </div>
       </div>
     </section>
@@ -194,5 +204,8 @@
         </div>
       </div>
 	 </footer>
+	 <script src="js/jquery-3.3.1.min.js"></script>
+	 <script src="js/main.js"></script>
+	 <script src="js/accordion.js"></script>
   </body>
 </html>
