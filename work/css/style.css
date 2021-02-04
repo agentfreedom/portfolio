@@ -594,7 +594,7 @@ li {
     line-height: 20px;
   }
   .section {
-    padding: 50px 0;
+    padding: 70px 0;
   }
   .blok {
     display: block;
@@ -621,13 +621,15 @@ li {
   .steps {
     display: block;
     justify-content: center;
+    width: 80%;
+    margin: 60px auto 0;
   }
   .step {
     width: auto;
     text-align: center;
-    margin: 0 60px 20px;
+    margin: 0 auto 20px;
   }
   .step__examples p {
-    padding-left: 120px;
+    padding-left: 35px;
   }
 }
