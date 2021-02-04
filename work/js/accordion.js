@@ -18,7 +18,7 @@ $(function () {
 	// функция удаления классов тегов h3 и p
 	function removeAccordion() {
 		$('#description .description__title').removeClass('accordion');
-		$('#description .description__text').removeClass('panel');
+		$('#description .description__blok').removeClass('panel');
 	}
 
 	// //запуск функции removeAccordion() если экран гаджета больше 700px
@@ -31,7 +31,7 @@ $(function () {
 	// функция добавляет новые классы тегам h3 и p
 	function addAccordion() {
 		$('#description .description__title').addClass('accordion');
-		$('#description .description__text').addClass('panel');
+		$('#description .description__blok').addClass('panel');
 	}
 	// //запуск функции addAccordion() если экран гаджета меньше 700px
 	// $(document).ready(function () {
