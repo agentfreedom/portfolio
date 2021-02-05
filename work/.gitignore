@@ -29,3 +29,21 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows
+
+# Игнорировать каталог src
+src/ 
+
+# Игнорирование логов 
+logs 
+*.log 
+
+# Игнорирование каталога со сборкой проекта
+/dist 
+
+# Игнорирование файла содержащий переменные окружения  
+.env 
+
+# Игнорирование файлов специфичных для IDE 
+.idea/ 
+.vscode/ 
+*.sw*
