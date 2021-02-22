@@ -670,15 +670,18 @@ li {
     width: 80%;
     margin: 60px auto 0;
   } */
-  .step {
+  /* .step {
     width: auto;
     text-align: center;
     margin: 0 auto 20px;
-  }
+  } */
   .step__img-mobi {
     padding-top: 40px;
   }
   .btn {
     margin-bottom: 40px;
+  }
+  .step__white {
+    font-size: 22px;
   }
 }
