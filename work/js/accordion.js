@@ -1,6 +1,6 @@
 $(function () {
 
-	var acc = document.getElementsByClassName("accordion");
+	var acc = document.getElementsByClassName("description-accordion__title");
 	var i;
 
 	for (i = 0; i < acc.length; i++) {
@@ -16,10 +16,10 @@ $(function () {
 	}
 
 	// функция удаления классов тегов h3 и p
-	function removeAccordion() {
-		$('#description .description__title').removeClass('accordion');
-		$('#description .description__blok').removeClass('panel');
-	}
+	//function removeAccordion() {
+	//	$('#description .description-accordion__title').removeClass('accordion');
+	//	$('#description .description-accordion__blok').removeClass('panel');
+	//}
 
 	// //запуск функции removeAccordion() если экран гаджета больше 700px
 	// $(document).ready(function () {
@@ -29,10 +29,10 @@ $(function () {
 	// });
 
 	// функция добавляет новые классы тегам h3 и p
-	function addAccordion() {
-		$('#description .description__title').addClass('accordion');
-		$('#description .description__blok').addClass('panel');
-	}
+	//function addAccordion() {
+	//	$('#description .description-accordion__title').addClass('accordion');
+	//	$('#description .description-accordion__blok').addClass('panel');
+	//}
 	// //запуск функции addAccordion() если экран гаджета меньше 700px
 	// $(document).ready(function () {
 	// 	if ($(window).width() < 700) {
@@ -40,12 +40,12 @@ $(function () {
 	// 	}
 	// });
 
-	window.addEventListener('resize', function () {
-		if ($(window).width() <= 700) {
-			addAccordion();
-		} else {
-			removeAccordion();
-		}
-	})
+	//window.addEventListener('resize', function () {
+	//	if ($(window).width() <= 700) {
+	//		addAccordion();
+	//	} else {
+	//		removeAccordion();
+	//	}
+	//})
 
 });
