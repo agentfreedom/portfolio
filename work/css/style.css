@@ -37,12 +37,12 @@ p {
   margin-top: 7px;
 }
 
-ul {
+.list {
   display: flex;
   padding-left: 15px;
 }
 
-li {
+.item {
   position: relative;
   padding-right: 40px;
   list-style-image: square;
@@ -209,7 +209,6 @@ li {
 
 .description__blok {
   opacity: 0.85;
-  font-size: 14px;
   line-height: 25px;
 }
 
@@ -610,6 +609,12 @@ li {
   } */
   .description-accordion {
     display: block;
+  }
+  .description-accordion__title {
+    font-size: 18px;
+  }
+  .accordion__item {
+    margin-left: 25px;
   }
 }
 
