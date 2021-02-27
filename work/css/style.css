@@ -567,15 +567,15 @@ p {
     .container {
         min-width: 769px;
     }
+    .wrapper {
+        padding: 50px;
+    }
 }
 
 /* 576px - 768px (md - ≥768px) */
 @media screen and (max-width: 768px) {
     .container {
         min-width: 577px;
-    }
-    .wrapper {
-        padding: 35px;
     }
     .offer__title {
         font-size: 30px;
@@ -666,7 +666,4 @@ p {
     .btn {
         margin-bottom: 40px;
     }
-    /* .step__white {
-        font-size: 24px;
-    } */
 }
