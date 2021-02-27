@@ -63,8 +63,6 @@ p {
 
 .container {
   width: 90%;
-  min-width: 280px;
-  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -216,7 +214,6 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   margin-top: 65px;
 }
 .wrapper {
@@ -224,10 +221,9 @@ p {
 }
 
 .step {
-  min-width: 280px;
+  min-width: 260px;
   height: 260px;
   text-align: center;
-  /* margin: 0; */
   border: 5px solid #f6f6f6;
 }
 
@@ -475,7 +471,7 @@ p {
 }
 
 .step__examples {
-  width: 280px;
+  width: 260px;
   height: auto;
   text-align: center;
   border: 5px solid #fff;
@@ -488,7 +484,6 @@ p {
   text-align: center;
   color: #fff;
   opacity: 0.6;
-  /* padding-left: 18px; */
   padding-bottom: 25px;
 }
 
@@ -562,31 +557,22 @@ p {
 
 /* 992px - 1200px (xl - ≥1200px) */
 @media screen and (max-width: 1200px) {
-  /* .container {
-    width: 1080px;
-  } */
+  .container {
+    min-width: 993px;
+  }
 }
 
 /* 768px - 992px (lg - ≥992px) */
 @media screen and (max-width: 992px) {
   .container {
-    max-width: 962px;
+    min-width: 769px;
   }
-  /* .steps {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .step {
-    margin: 0;
-    border: 5px solid #fff;
-  } */
 }
 
 /* 576px - 768px (md - ≥768px) */
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 738px;
+    min-width: 577px;
   }
   .wrapper {
     padding: 50px;
@@ -601,12 +587,7 @@ p {
   }
   .description {
     display: none;
-    /* padding-left: 30px; */
   }
-  /* .description__title {
-    padding: 25px 0;
-    margin: 0;
-  } */
   .description-accordion {
     display: block;
   }
@@ -621,7 +602,7 @@ p {
 /* 0 - 576px (sm - ≥576px) */
 @media screen and (max-width: 576px) {
   .container {
-    max-width: 546px;
+    min-width: 280px;
   }
   .header {
     padding-top: 40px;
@@ -679,17 +660,6 @@ p {
   .description__title {
     font-size: 16px;
   }
-  /* .steps {
-    display: block;
-    justify-content: center;
-    width: 80%;
-    margin: 60px auto 0;
-  } */
-  /* .step {
-    width: auto;
-    text-align: center;
-    margin: 0 auto 20px;
-  } */
   .step__img-mobi {
     padding-top: 40px;
   }
